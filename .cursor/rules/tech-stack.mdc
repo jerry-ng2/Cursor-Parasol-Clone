@@ -1,0 +1,55 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+#   Technical stack
+
+### Backend Stack:
+1. **Core Framework**:
+   - FastAPI (Python web framework)
+   - Uvicorn (ASGI server)
+   - Python 3.8+
+
+2. **Database**:
+   - PostgreSQL (via psycopg2)
+   - SQLAlchemy (ORM)
+
+3. **AI/ML Components**:
+   - LangChain (AI application framework)
+   - Hugging Face Transformers
+   - PyTorch
+   - Sentence Transformers
+   - Milvus (Vector database for AI)
+
+4. **Storage**:
+   - S3-compatible storage (via boto3)
+   - MinIO (likely used as S3-compatible storage) 
+
+5. **API Features**:
+   - WebSocket support
+   - CORS enabled
+   - Pydantic for data validation
+
+### Frontend Stack:
+1. **Core Framework**:
+   - React 18
+   - TypeScript
+   - Webpack for bundling
+
+2. **UI Components**:
+   - PatternFly (Red Hat's design system)
+   - FontAwesome icons
+   - React Image Gallery
+
+3. **Development Tools**:
+   - ESLint for linting
+   - Jest for testing
+   - Prettier for code formatting
+   - TypeScript for type checking
+
+4. **Build Tools**:
+   - Webpack
+   - Babel
+   - CSS/SCSS processing
+   - Asset optimization
